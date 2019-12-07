@@ -22,6 +22,9 @@
     "pug": "^2.0.4"
   },
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "nodemon": "^2.0.1"
   }
 }
