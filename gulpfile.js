@@ -5,7 +5,7 @@ const minify = require("gulp-csso");
 function css() {
   return src("src/sass/*.scss")
     .pipe(sass())
-    .pipe(dest("build/css"));
+    .pipe(dest("public/css"));
 }
 
 exports.default = css;
