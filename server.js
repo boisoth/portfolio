@@ -8,6 +8,7 @@ const htmlRoutes = require("./routes/html-routes");
 app.set("view engine", "pug");
 app.set("views", "views");
 
+app.use(express.static("public"));
 app.use(htmlRoutes);
 
 app.use((req, res) => {
