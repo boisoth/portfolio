@@ -10,4 +10,8 @@ app.set("views", "views");
 
 app.use(htmlRoutes);
 
+app.use((req, res) => {
+  res.status(404).render("404");
+});
+
 http.listen(PORT, () => console.log(`Listening on ${PORT}`));
