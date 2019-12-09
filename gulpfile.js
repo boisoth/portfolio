@@ -1,4 +1,4 @@
-const { src, dest, parallel } = require("gulp");
+const { src, dest, parallel, watch } = require("gulp");
 const sass = require("gulp-sass");
 const minify = require("gulp-csso");
 
@@ -8,4 +8,6 @@ function css() {
     .pipe(dest("public/css"));
 }
 
-exports.default = css;
+exports.default = () => {
+  watch("src/sass/*.scss", css);
+};
