@@ -14,7 +14,8 @@ header nav ul {
   font-weight: 100; }
 
 .main .intro p {
-  font-weight: 100; }
+  font-weight: 100;
+  font-size: 1.2em; }
 
 footer {
   position: fixed;
