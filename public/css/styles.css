@@ -4,7 +4,9 @@
 body {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
-  background: #4c3d6d; }
+  background-color: #4c3d6d;
+  max-width: 960px;
+  margin: auto; }
 
 header nav ul {
   list-style-type: none; }
@@ -15,12 +17,14 @@ header nav ul {
       color: #ffffff;
       text-decoration: none; }
 
-.main .intro h1 {
-  font-weight: 100; }
-
-.main .intro p {
-  font-weight: 100;
-  font-size: 1.2em; }
+.main .intro {
+  text-align: center; }
+  .main .intro h1 {
+    font-weight: 100; }
+  .main .intro p {
+    font-weight: 100;
+    font-size: 1.2em;
+    line-height: 2em; }
 
 footer {
   position: fixed;

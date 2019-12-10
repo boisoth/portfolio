@@ -7,7 +7,11 @@ body {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   // background: #16ffbd;
-  background: #4c3d6d;
+  background-color: #4c3d6d;
+  // background-color: #00a88c;
+  // background-image: url("../images/dust.png");
+  max-width: 960px;
+  margin: auto;
 }
 
 header {
@@ -28,12 +32,14 @@ header {
 
 .main {
   .intro {
+    text-align: center;
     h1 {
       font-weight: 100;
     }
     p {
       font-weight: 100;
       font-size: 1.2em;
+      line-height: 2em;
     }
   }
 }
