@@ -8,6 +8,9 @@ body {
   max-width: 960px;
   margin: auto; }
 
+.isActive {
+  text-decoration: underline; }
+
 header nav ul {
   list-style-type: none; }
   header nav ul li {
