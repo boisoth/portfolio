@@ -1,9 +1,9 @@
 header
   nav
-    ul
-      li
-        a(href="/" class=(path === "/" ? "isActive" : "")) About
-      li 
-        a(href="/resume" class=(path === "/resume" ? "isActive" : "")) Resume
-      li
-        a(href="/contact" class=(path === "/contact" ? "isActive" : "")) Contact
+    .row
+      .one.column
+        a(href="/" class=(path === "/" ? "isActive" : "")) ABOUT
+      .one.column 
+        a(href="/resume" class=(path === "/resume" ? "isActive" : "")) RESUME
+      .one.column
+        a(href="/contact" class=(path === "/contact" ? "isActive" : "")) CONTACT

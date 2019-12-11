@@ -1,23 +1,21 @@
 body {
-  background-color: #4c3d6d;
+  // background-color: #4c3d6d;
 }
 
 .isActive {
-  text-decoration: underline;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 0.4rem black;
+  font-weight: bold;
 }
 
 header {
-  nav {
-    ul {
-      list-style-type: none;
-      li {
-        display: inline-block;
-        a {
-          font-weight: 100;
-          color: #ffffff;
-          text-decoration: none;
-        }
-      }
+  margin: 2rem 0;
+  a {
+    color: black;
+    text-decoration: none;
+    &:hover {
+      color: black;
+      font-weight: bold;
     }
   }
 }
