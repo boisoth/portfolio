@@ -5,5 +5,14 @@ html
   body
     include includes/navigation.pug 
     .main
-      h1 Contact
+      form(action="mailto:boisoth@gmail.com" method="POST" enctype="text/plain")
+        label(for="name") Name
+        input(type="text", name="name")
+        label(for="email") Email
+        input(type="text", name="email")
+        label(for="subject") Subject
+        input(type="text", name="subject")
+        label(for="message") Message
+        textarea(name="message", cols="30", rows="10")
+
     include includes/footer.pug
