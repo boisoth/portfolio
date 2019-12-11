@@ -4,15 +4,17 @@ html
     include includes/head-tags.pug
   body
     include includes/navigation.pug 
-    .main
+    .container
       form(action="mailto:boisoth@gmail.com" method="POST" enctype="text/plain")
-        label(for="name") Name
-        input(type="text", name="name")
-        label(for="email") Email
-        input(type="text", name="email")
-        label(for="subject") Subject
-        input(type="text", name="subject")
+        .row
+          .six.columns
+            label(for="name") Name
+            input.u-full-width(type="text", name="name")
+          .six.columns
+            label(for="email") Email
+            input.u-full-width(type="text", name="email")
+
         label(for="message") Message
-        textarea(name="message", cols="30", rows="10")
+        textarea.u-full-width(name="message", cols="30", rows="10")
 
     include includes/footer.pug
