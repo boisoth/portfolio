@@ -20,6 +20,18 @@ header {
   }
 }
 
+.intro {
+  text-align: center;
+  .profile {
+    margin: 5rem auto;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/profile.jpg");
+    background-repeat: no-repeat;
+    border-radius: 100px;
+  }
+}
+
 footer {
   position: fixed;
   bottom: 0;
