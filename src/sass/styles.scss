@@ -1,5 +1,6 @@
 body {
   // background-color: #4c3d6d;
+  font-family: monospace;
 }
 
 .isActive {
@@ -19,7 +20,6 @@ header {
     text-decoration: none;
     margin-right: 20px;
     &:hover {
-      color: black;
       font-weight: bold;
     }
   }
@@ -36,6 +36,14 @@ header {
     background-repeat: no-repeat;
     border-radius: 100px;
   }
+  p {
+    font-size: 2rem;
+  }
+}
+
+input,
+textarea {
+  color: #000000;
 }
 
 footer {

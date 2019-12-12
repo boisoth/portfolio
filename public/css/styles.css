@@ -1,3 +1,6 @@
+body {
+  font-family: monospace; }
+
 .isActive {
   padding-bottom: 0.5rem;
   border-bottom: solid 0.4rem black;
@@ -13,7 +16,6 @@ header {
     text-decoration: none;
     margin-right: 20px; }
     header a:hover {
-      color: black;
       font-weight: bold; }
 
 .intro {
@@ -26,6 +28,12 @@ header {
     background-image: url("../images/profile.jpg");
     background-repeat: no-repeat;
     border-radius: 100px; }
+  .intro p {
+    font-size: 2rem; }
+
+input,
+textarea {
+  color: #000000; }
 
 footer {
   position: fixed;
