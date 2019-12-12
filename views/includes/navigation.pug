@@ -1,9 +1,12 @@
 header
   nav
     .row
-      .one.column
+      .nine.columns.left-nav
         a(href="/" class=(path === "/" ? "isActive" : "")) ABOUT
-      .one.column 
+
         a(href="/resume" class=(path === "/resume" ? "isActive" : "")) RESUME
-      .one.column
+
         a(href="/contact" class=(path === "/contact" ? "isActive" : "")) CONTACT
+      .three.columns.right-nav
+        a(href="/contact" class=(path === "/contact" ? "isActive" : "")) GITHUB
+        a(href="/contact" class=(path === "/contact" ? "isActive" : "")) LINKEDIN

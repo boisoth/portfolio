@@ -10,9 +10,14 @@ body {
 
 header {
   margin: 2rem 0;
+  .right-nav {
+    text-align: right;
+  }
   a {
+    font-size: 1.5rem;
     color: black;
     text-decoration: none;
+    margin-right: 20px;
     &:hover {
       color: black;
       font-weight: bold;
@@ -22,6 +27,7 @@ header {
 
 .intro {
   text-align: center;
+  font-size: 1.5rem;
   .profile {
     margin: 5rem auto;
     width: 200px;
