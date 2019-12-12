@@ -10,7 +10,8 @@ body {
 }
 
 header {
-  margin: 2rem 0;
+  padding: 2rem 0;
+  background: #ffffff;
   .right-nav {
     text-align: right;
   }
@@ -23,6 +24,10 @@ header {
       font-weight: bold;
     }
   }
+}
+
+.resume {
+  // padding-top: 6rem;
 }
 
 .intro {
