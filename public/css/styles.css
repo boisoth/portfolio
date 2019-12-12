@@ -19,6 +19,9 @@ header {
     header a:hover {
       font-weight: bold; }
 
+.form-wrap {
+  margin-top: 40px; }
+
 .intro {
   text-align: center;
   font-size: 1.5rem; }

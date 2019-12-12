@@ -4,18 +4,20 @@ html
   body
     .container
       include includes/navigation.pug 
-      form(action="mailto:boisoth@gmail.com" method="POST" enctype="text/plain")
-        .row
-          .six.columns
-            label(for="name") Name
-            input.u-full-width(type="text", name="name")
-          .six.columns
-            label(for="email") Email
-            input.u-full-width(type="text", name="email")
+      .row
+        .offset-by-three.six.columns.form-wrap
+          form(action="mailto:boisoth@gmail.com" method="POST" enctype="text/plain")
+            .row
+              .u-full-width
+                label(for="name") Name
+                input.u-full-width(type="text", name="name")
+              .u-full-width
+                label(for="email") Email
+                input.u-full-width(type="text", name="email")
 
-        label(for="subject") Subject
-        input.u-full-width(type="text" name="subject")
-        label(for="message") Message
-        textarea.u-full-width(name="message", cols="30", rows="10")
+            label(for="subject") Subject
+            input.u-full-width(type="text" name="subject")
+            label(for="message") Message
+            textarea.u-full-width(name="message", cols="30", rows="10")
 
     include includes/footer.pug
