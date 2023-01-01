@@ -26,7 +26,7 @@
     "gulp-csso": "^4.0.1",
     "gulp-sass": "^4.0.2",
     "nodemon": "^2.0.1",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
